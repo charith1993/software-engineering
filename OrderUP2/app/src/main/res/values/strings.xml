@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+
+        <string name="app_name">OrderUP</string>
+        <string name="action_settings">Settings</string>
+
+        <string-array name="header_titles">
+            <item>Combo Plate(3 meat)</item>
+            <item>Teriyaki Chicken</item>
+            <item>Orange Chicken</item>
+            <item>Sesame Chicken</item>
+            <item>General Chao</item>
+            <item>Chicken Pad Thai</item>
+            <item>Chicken Fried Rice</item>
+        </string-array>
+        <string-array name="h1_items">
+            <item>Teriyaki</item>
+            <item>Orange</item>
+            <item>Sesame</item>
+            <item>General Chao</item>
+        </string-array>
+        <string-array name="h2_items">
+            <item>Spicy</item>
+            <item>Fried Rice</item>
+            <item>Steam Rice</item>
+        </string-array>
+        <string-array name="h3_items">
+            <item>Spicy</item>
+            <item>Fried Rice</item>
+            <item>Steam Rice</item>
+        </string-array>
+        <string-array name="h4_items">
+            <item>Spicy</item>
+            <item>Fried Rice</item>
+            <item>Steam Rice</item>
+        </string-array>
+        <string-array name="h5_items">
+            <item>Spicy</item>
+            <item>Fried Rice</item>
+            <item>Steam Rice</item>
+        </string-array>
+        <string-array name="h6_items">
+            <item>Spicy</item>
+        </string-array>
+        <string-array name="h7_items">
+            <item>Spicy</item>
+        </string-array>
+</resources>
