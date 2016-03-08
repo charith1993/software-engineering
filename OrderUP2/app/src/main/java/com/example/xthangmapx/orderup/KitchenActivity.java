@@ -1,5 +1,6 @@
 package com.example.xthangmapx.orderup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +26,11 @@ public class KitchenActivity extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public void onClick_EditMenu(View view){
+        Intent intent = new Intent(this, EditMenuActivity.class);
+        startActivity(intent);
     }
 
 }
