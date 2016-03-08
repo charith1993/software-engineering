@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         expandableListView = (ExpandableListView)findViewById(R.id.expandableListView2);
+
         final List<String> Headings = new ArrayList<String>();
+
         List<String> L1 = new ArrayList<String>();
         List<String> L2 = new ArrayList<String>();
         List<String> L3 = new ArrayList<String>();
@@ -31,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
         List<String> L5 = new ArrayList<String>();
         List<String> L6 = new ArrayList<String>();
         List<String> L7 = new ArrayList<String>();
+
         final HashMap<String,List<String>> ChildList = new HashMap<String,List<String>>();
         String heading_items[]= getResources().getStringArray(R.array.header_titles);
+
         String l1[]= getResources().getStringArray(R.array.h1_items);
         String l2[]= getResources().getStringArray(R.array.h2_items);
         String l3[]= getResources().getStringArray(R.array.h3_items);
@@ -89,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
                                         int groupPosition, int childPosition, long id) {
 
                 //TODO add item to the oder here
+
+
                 return false;
             }
         });

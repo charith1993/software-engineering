@@ -49,4 +49,5 @@
         <item>Spicy</item>
     </string-array>
     <string name="title_activity_kitchen">Kitchen</string>
+    <string name="button_Edit_Menu">Edit Menu</string>
 </resources>
