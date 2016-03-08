@@ -1,5 +1,6 @@
 package com.example.xthangmapx.orderup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -93,6 +94,11 @@ public class MainActivity extends AppCompatActivity {
         });
         }
 
+    //called when use clicks kitchen button
+    public void onClick_kitchen(View view){
+        Intent intent = new Intent(this, KitchenActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

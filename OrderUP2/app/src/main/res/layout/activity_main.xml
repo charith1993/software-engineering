@@ -38,6 +38,13 @@
             android:layout_height="wrap_content"
             android:text="@string/button_submit"
             android:id="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_kitchen"
+            android:id="@+id/button3"
+            android:onClick="onClick_kitchen"/>
     </LinearLayout>
 
 </LinearLayout>
