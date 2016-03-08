@@ -6,7 +6,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ExpandableListView;
-
+import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.ExpandableListView.OnGroupClickListener;
+import android.widget.ExpandableListView.OnGroupCollapseListener;
+import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -17,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        expandableListView = (ExpandableListView)findViewById(R.id.exp_listview);
-        List<String> Headings = new ArrayList<String>();
+        expandableListView = (ExpandableListView)findViewById(R.id.expandableListView2);
+        final List<String> Headings = new ArrayList<String>();
         List<String> L1 = new ArrayList<String>();
         List<String> L2 = new ArrayList<String>();
         List<String> L3 = new ArrayList<String>();
@@ -26,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         List<String> L5 = new ArrayList<String>();
         List<String> L6 = new ArrayList<String>();
         List<String> L7 = new ArrayList<String>();
-        HashMap<String,List<String>> ChildList = new HashMap<String,List<String>>();
+        final HashMap<String,List<String>> ChildList = new HashMap<String,List<String>>();
         String heading_items[]= getResources().getStringArray(R.array.header_titles);
         String l1[]= getResources().getStringArray(R.array.h1_items);
         String l2[]= getResources().getStringArray(R.array.h2_items);
@@ -76,8 +80,19 @@ public class MainActivity extends AppCompatActivity {
         ChildList.put(Headings.get(6), L7);
         MyAdapter myAdapter = new MyAdapter(this,Headings,ChildList);
         expandableListView.setAdapter(myAdapter);
+        // Listview on child click listener
+        expandableListView.setOnChildClickListener(new OnChildClickListener() {
 
-    }
+            @Override
+            public boolean onChildClick(ExpandableListView parent, View v,
+                                        int groupPosition, int childPosition, long id) {
+
+                //TODO add item to the oder here
+                return false;
+            }
+        });
+        }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

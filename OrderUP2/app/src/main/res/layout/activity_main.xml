@@ -9,26 +9,35 @@
     android:background="#ffffff"
     android:weightSum="1">
 
+
     <ExpandableListView
-        android:layout_width="190dp"
-        android:layout_height="500dp"
-        android:id="@+id/exp_listview"
-        tools:listitem="@android:layout/simple_expandable_list_item_2"></ExpandableListView>
-
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="submit"
-        android:id="@+id/button2" />
+        android:id="@+id/expandableListView2" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="cancel"
-        android:id="@+id/button"
-        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/listView"
+            android:layout_weight="1.01" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_Cancel"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_submit"
+            android:id="@+id/button" />
+    </LinearLayout>
 
 </LinearLayout>
