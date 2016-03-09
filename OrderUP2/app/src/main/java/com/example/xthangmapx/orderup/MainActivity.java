@@ -14,7 +14,10 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+<<<<<<< HEAD
 import android.widget.Spinner;
+=======
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,9 +32,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+=======
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
         expandableListView = (ExpandableListView)findViewById(R.id.expandableListView2);
 
         final List<String> Headings = new ArrayList<String>();

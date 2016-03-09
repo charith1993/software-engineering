@@ -14,8 +14,11 @@ public class KitchenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kitchen);
+<<<<<<< HEAD
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+=======
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
     }
 
     public void onClick_EditMenu(View view){

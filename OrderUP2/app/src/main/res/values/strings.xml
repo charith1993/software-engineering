@@ -48,12 +48,15 @@
     <string-array name="h7_items">
         <item>Spicy</item>
     </string-array>
+<<<<<<< HEAD
     <string-array name="menu_names">
         <item>Lunch</item>
         <item>Dinner</item>
         <item>Special</item>
     </string-array>
     <string name="select_menu">Select Menu</string>
+=======
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
     <string name="title_activity_kitchen">Kitchen</string>
     <string name="button_Edit_Menu">Edit Menu</string>
 </resources>

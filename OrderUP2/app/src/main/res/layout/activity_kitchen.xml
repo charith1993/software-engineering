@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -25,4 +26,28 @@
 
 
 </android.support.design.widget.CoordinatorLayout>
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.xthangmapx.orderup.KitchenActivity">
+
+    <ExpandableListView
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Edit_Menu"
+        android:id="@+id/button4"
+        android:onClick="onClick_EditMenu"/>
+</LinearLayout>
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
 

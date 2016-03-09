@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,6 +16,7 @@
     tools:context="com.example.xthangmapx.orderup.KitchenActivity"
     tools:showIn="@layout/activity_kitchen">
 
+<<<<<<< HEAD
 
     <ExpandableListView
         android:layout_width="200dp"
@@ -35,3 +40,6 @@
 
     </LinearLayout>
 </LinearLayout>
+=======
+</RelativeLayout>
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e

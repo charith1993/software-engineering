@@ -8,4 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.xthangmapx.orderup.EditMenuActivity">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 54973538f33744599cb3f229ca1967832546379e
 </RelativeLayout>
